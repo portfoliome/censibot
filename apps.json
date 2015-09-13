@@ -13,8 +13,17 @@
     "repository": "mrbernnz/dailyDozenAPI",
     "environments": ["production"],
     "github_api": "https://api.github.com",
-    "allowed_rooms": ["dev-notifications", "censibot"],
+    "allowed_rooms": ["dev-notifications", "general"],
 
     "heroku__name": "dailydozenapi"
+  },
+  "censible-frontend": {
+    "provider": "heroku",
+    "repository": "portfoliome/censible-frontend",
+    "environments": ["production"],
+    "github_api": "https://api.github.com",
+    "allowed_rooms": ["dev-notifications", "general"],
+
+    "heroku__name": "commoncents-prod"
   }
 }
