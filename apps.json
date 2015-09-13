@@ -7,7 +7,7 @@
     "allowed_rooms": ["dev-notifications", "general"],
 
     "heroku_staging_name": "censibot",
-    "heroku_production_name": "censibot"
+    "heroku_production_name": "censinot"
   },
   "dailydozenapi": {
     "provider": "heroku",
