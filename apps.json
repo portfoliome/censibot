@@ -2,12 +2,12 @@
   "censibot": {
     "provider": "heroku",
     "repository": "mrbernnz/censibot",
-    "environments": ["staging","production"],
+    "environments": ["production", "staging"],
     "github_api": "https://api.github.com",
     "allowed_rooms": ["dev-notifications", "general"],
 
-    "heroku_staging_name": "censibot",
-    "heroku_production_name": "censinot"
+    "heroku_staging_name": "censibot-staging",
+    "heroku_production_name": "censibot"
   },
   "dailydozenapi": {
     "provider": "heroku",
