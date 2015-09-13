@@ -9,7 +9,7 @@
     "heroku_staging_name": "censibot-staging",
     "heroku_production_name": "censibot"
   },
-  "dailydozenapi": {
+  "daily": {
     "provider": "heroku",
     "repository": "mrbernnz/dailyDozenAPI",
     "environments": ["production", "staging"],
