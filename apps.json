@@ -8,6 +8,15 @@
 
     "heroku__name": "censibot"
   },
+  "censinot": {
+    "provider": "heroku",
+    "repository": "mrbernnz/censinot",
+    "environments": ["staging", "production"],
+    "github_api": "https://api.github.com",
+    "allowed_rooms": ["dev-notifications", "general"],
+
+    "heroku__name": "censinot"
+  },
   "dailydozenapi": {
     "provider": "heroku",
     "repository": "mrbernnz/dailyDozenAPI",
