@@ -12,10 +12,11 @@
   "dailydozenapi": {
     "provider": "heroku",
     "repository": "mrbernnz/dailyDozenAPI",
-    "environments": ["production"],
+    "environments": ["production", "staging"],
     "github_api": "https://api.github.com",
     "allowed_rooms": ["dev-notifications", "general"],
 
-    "heroku__name": "dailydozenapi"
+    "heroku_production_name": "dailydozenapi",
+    "heroku_staging_name": "dailydozenapi-staging"
   }
 }
