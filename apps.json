@@ -2,7 +2,7 @@
   "censibot": {
     "provider": "heroku",
     "repository": "mrbernnz/censibot",
-    "environments": ["production"],
+    "environments": ["staging"],
     "github_api": "https://api.github.com",
     "allowed_rooms": ["dev-notifications", "general"],
 
@@ -11,7 +11,7 @@
   "censinot": {
     "provider": "heroku",
     "repository": "mrbernnz/censinot",
-    "environments": ["staging", "production"],
+    "environments": ["production"],
     "github_api": "https://api.github.com",
     "allowed_rooms": ["dev-notifications", "general"],
 
