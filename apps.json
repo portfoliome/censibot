@@ -1,7 +1,6 @@
 {
   "censibot": {
     "provider": "heroku",
-    "auto_merge": false,
     "repository": "mrbernnz/censibot",
     "environments": ["production"],
     "github_api": "https://api.github.com",
