@@ -10,7 +10,7 @@
   },
   "censinot": {
     "provider": "heroku",
-    "repository": "mrbernnz/censinot",
+    "repository": "mrbernnz/censibot",
     "environments": ["production"],
     "github_api": "https://api.github.com",
     "allowed_rooms": ["dev-notifications", "general"],
