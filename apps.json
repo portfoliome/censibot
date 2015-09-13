@@ -6,7 +6,7 @@
     "environments": ["production"],
     "github_api": "https://api.github.com",
     "github_token": "720171e940ea8a8482774c454855d1d145421253",
-    "allowed_rooms": ["#dev-notifications", "#general"],
+    "allowed_rooms": ["dev-notifications", "general"],
 
     "heroku_production_name": "censibot"
   }
