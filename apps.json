@@ -6,6 +6,15 @@
     "github_api": "https://api.github.com",
     "allowed_rooms": ["dev-notifications", "general"],
 
-    "heroku_production_name": "censibot"
+    "heroku__name": "censibot"
+  },
+  "dailydozenapi": {
+    "provider": "heroku",
+    "repository": "mrbernnz/dailyDozenAPI",
+    "environments": ["production"],
+    "github_api": "https://api.github.com",
+    "allowed_rooms": ["dev-notifications", "censibot"],
+
+    "heroku__name": "dailydozenapi"
   }
 }
