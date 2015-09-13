@@ -5,7 +5,7 @@
     "repository": "mrbernnz/censibot",
     "environments": ["production"],
     "github_api": "https://api.github.com",
-    "github_token": "ENV[HUBOT_GITHUB_TOKEN",
+    "github_token": "process.env.HUBOT_GITHUB_TOKEN",
     "allowed_rooms": ["dev-notifications", "general"],
 
     "heroku_production_name": "censibot"
