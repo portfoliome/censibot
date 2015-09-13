@@ -2,20 +2,12 @@
   "censibot": {
     "provider": "heroku",
     "repository": "mrbernnz/censibot",
-    "environments": ["staging"],
+    "environments": ["staging","production"],
     "github_api": "https://api.github.com",
     "allowed_rooms": ["dev-notifications", "general"],
 
-    "heroku__name": "censibot"
-  },
-  "censinot": {
-    "provider": "heroku",
-    "repository": "mrbernnz/censibot",
-    "environments": ["production"],
-    "github_api": "https://api.github.com",
-    "allowed_rooms": ["dev-notifications", "general"],
-
-    "heroku__name": "censinot"
+    "heroku_staging_name": "censibot",
+    "heroku_production_name": "censibot"
   },
   "dailydozenapi": {
     "provider": "heroku",
@@ -25,14 +17,5 @@
     "allowed_rooms": ["dev-notifications", "general"],
 
     "heroku__name": "dailydozenapi"
-  },
-  "censible-frontend": {
-    "provider": "heroku",
-    "repository": "portfoliome/censible-frontend",
-    "environments": ["production"],
-    "github_api": "https://api.github.com",
-    "allowed_rooms": ["dev-notifications", "general"],
-
-    "heroku__name": "commoncents-prod"
   }
 }
