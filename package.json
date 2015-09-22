@@ -5,8 +5,8 @@
   "author": "Noel Sagaille <noel.sagaille@gmail.com>",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
-    "heroku-cli-util": "^5.4.10",
-    "hubot": "^2.13.2",
+    "heroku-pipelines": "^0.22.0",
+\    "hubot": "^2.13.2",
     "hubot-deploy": "^0.6.53",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.5",
