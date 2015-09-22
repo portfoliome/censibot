@@ -7,8 +7,8 @@
 #   Uncomment the ones you want to try and experiment with.
 #
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
-#Heroku = require('heroku-client')
-#heroku = new Heroku(token: process.env.HUBOT_HEROKU_API_KEY)
+Heroku = require('heroku-client')
+heroku = new Heroku(token: process.env.HUBOT_HEROKU_API_KEY)
 
 module.exports = (robot) ->
 
