@@ -2,7 +2,7 @@
   "censibot": {
     "provider": "heroku",
     "repository": "portfoliome/censibot",
-    "environments": ["production", "staging"],
+    "environments": ["production"],
     "github_api": "https://api.github.com",
     "allowed_rooms": "dev-notifications",
 
