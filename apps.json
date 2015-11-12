@@ -18,5 +18,14 @@
 
     "heroku_production_name": "dailydozenapi",
     "heroku_staging_name": "dailydozenapi-staging"
+  },
+  "fe-staging": {
+    "provider": "heroku",
+    "repository": "portfoliome/censible-frontend",
+    "environments": "staging",
+    "github_api": "https://api.github.com",
+    "allowed_rooms": ["dev-notifications", "general"],
+
+    "heroku_staging_name": "censible-fe-staging"
   }
 }
