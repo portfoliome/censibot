@@ -10,7 +10,7 @@
   },
   "fe-staging": {
     "provider": "heroku",
-    "repository": "portfoliome/censible-frontend
+    "repository": "portfoliome/censible-frontend",
     "environments": ["production"],
     "github_api": "https://api.github.com",
     "allowed_rooms": ["dev-notifications"],
