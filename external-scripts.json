@@ -10,6 +10,5 @@
   "hubot-rules",
   "hubot-heroku",
   "hubot-shipit",
-  "heroku-pipelines",
   "hubot-deploy"
 ]

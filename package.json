@@ -6,7 +6,6 @@
   "description": "A simple helpful robot for your Company",
   "dependencies": {
     "heroku-cli-util": "^5.4.10",
-    "heroku-pipelines": "^0.22.0",
     "hubot": "^2.13.2",
     "hubot-deploy": "^0.6.53",
     "hubot-diagnostics": "0.0.1",
