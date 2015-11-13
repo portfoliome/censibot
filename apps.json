@@ -2,19 +2,19 @@
   "censibot": {
     "provider": "heroku",
     "repository": "portfoliome/censibot",
-    "environments": ["production"],
+    "environments": ["production", "staging"],
     "github_api": "https://api.github.com",
-    "allowed_rooms": "dev-notifications",
+    "allowed_rooms": ["dev-notifications"],
 
-    "heroku_production_name": "censibot"
+    "heroku_name": "censibot"
   },
   "fe-staging": {
     "provider": "heroku",
-    "repository": "portfoliome/censible-frontend",
-    "environments": ["staging"],
+    "repository": "portfoliome/censible-frontend
+    "environments": ["production"],
     "github_api": "https://api.github.com",
-    "allowed_rooms": "dev-notifications",
+    "allowed_rooms": ["dev-notifications"],
 
-    "heroku_staging_name": "censible-fe-staging"
+    "heroku_name": "censible-fe-staging"
   }
 }
